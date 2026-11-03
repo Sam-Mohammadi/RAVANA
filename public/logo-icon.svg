@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="100%" height="100%">
+  <defs>
+    <radialGradient id="iconSynapseGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="iconNavyStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c4c" />
+      <stop offset="50%" stop-color="#0f233d" />
+      <stop offset="100%" stop-color="#163863" />
+    </linearGradient>
+
+    <linearGradient id="iconTealStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6" />
+      <stop offset="50%" stop-color="#2dd4bf" />
+      <stop offset="100%" stop-color="#5eead4" />
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" rx="64" fill="#ffffff" />
+
+  <g transform="translate(10, 10)">
+    <!-- Synaptic Glow Field -->
+    <circle cx="150" cy="140" r="62" fill="url(#iconSynapseGlow)" />
+
+    <!-- Lower Right Teal Synaptic Loop -->
+    <path 
+      d="M 125 170 C 142 215, 222 205, 212 162 C 203 125, 162 136, 130 170 Z" 
+      fill="none" 
+      stroke="url(#iconTealStroke)" 
+      stroke-width="14" 
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+    />
+
+    <!-- Lower Left Navy Loop -->
+    <path 
+      d="M 142 162 C 125 184, 95 220, 68 202 C 45 184, 72 158, 108 150" 
+      fill="none" 
+      stroke="url(#iconNavyStroke)" 
+      stroke-width="14" 
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+    />
+
+    <!-- Main Upper Body of 'R' -->
+    <path 
+      d="M 105 56 
+         C 174 52, 212 78, 212 121 
+         C 212 170, 152 182, 118 168 
+         C 74 150, 66 89, 118 58 
+         C 161 32, 187 97, 148 140" 
+      fill="none" 
+      stroke="url(#iconNavyStroke)" 
+      stroke-width="15" 
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+    />
+
+    <!-- Internal neural connection line -->
+    <path 
+      d="M 105 65 C 160 82, 178 112, 152 142 C 130 164, 105 172, 92 190" 
+      fill="none" 
+      stroke="url(#iconNavyStroke)" 
+      stroke-width="13" 
+      stroke-linecap="round" 
+    />
+
+    <!-- Synaptic Core Nucleus (Orange node) -->
+    <circle cx="150" cy="140" r="12" fill="#f97316" />
+    <circle cx="150" cy="140" r="7" fill="#ffedd5" opacity="0.45" />
+  </g>
+</svg>

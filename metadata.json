@@ -1,0 +1,6 @@
+{
+  "name": "روانا (Ravāna) - سامانه شبیه‌ساز بالینی روان‌درمانی",
+  "description": "روانا (Ravāna) | پلتفرم هوشمند آموزش بالینی روان‌درمانی با مراجع مجازی، تحلیل فرایند درمان و نظارت هوشمند سوپروایزر",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
